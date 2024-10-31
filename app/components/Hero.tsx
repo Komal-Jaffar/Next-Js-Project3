@@ -6,7 +6,7 @@ function Hero() {
 <div>
     <div className='p-5 bg-purple-400 container grid lg:grid-cols-2 min-h-full  min-w-full'>
     <Image 
-      src={require('../../public/images/abk dp.jpg')}
+      src={require('../../public/images/orange banner.jpeg')}
       alt="Hijabs"
       width={200}
       height={200}
@@ -15,7 +15,7 @@ function Hero() {
       
        <div className='font-extrabold text-[60px] leading-tight'>
            <p>WELCOME TO</p>
-            <p>ABK </p>
+            <p>HIJAB </p>
             <p>COLLECTION</p>
             
        

@@ -7,7 +7,7 @@ function Header() {
     
         <br></br>
         <div className='flex justify-between items-center'>
-        <div className='text-xl mx-20 bg-purple-300 p-1'><b> AL-HIJAB BY KOMAL </b></div><br></br>
+        <div className='text-xl mx-20 bg-purple-300 p-1'><b> HIJAB COLLECTION </b></div><br></br>
        <ul className='gap-15 lg:gap-8 hidden md:flex'>
            <li className='menuLink'><Link href="/"target="-blank"><b>Home</b></Link></li>
            <li className='menuLink'><Link href="/about"target="-blank"><b>About</b></Link></li>

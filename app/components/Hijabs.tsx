@@ -5,9 +5,59 @@ function Hijabs() {
   return (
     <div>
     <div className="bg-purple-400 p-[25px] my-[10px] text-[25px]">
-        <main> 
-          <div className="bg-purple-300"><b>
-          WELCOME TO AL-HIJAB BY KOMAL</b></div>
+
+    <div className="flex">
+<Image 
+      src={require('../../public/images/W-ABAYAS.webp')}
+      alt="Hijabs"
+      width={200}
+      height={200}
+      loading="lazy"
+      className="w-[300] h-[300] ml-10"/>
+
+
+
+<Image 
+      src={require('../../public/images/brown abaya.jpg')}
+      alt="Hijabs"
+      width={200}
+      height={200}
+      loading="lazy"
+      className="w-[300] h-[300] ml-10"/>
+
+
+<Image 
+      src={require('../../public/images/abk fashion.jpg')}
+      alt="Hijabs"
+      width={200}
+      height={200}
+      loading="lazy"
+      className="w-[300] h-[300] ml-10 "/>
+
+
+<Image 
+      src={require('../../public/images/gray abaya.jpg')}
+      alt="Hijabs"
+      width={200}
+      height={200}
+      loading="lazy"
+      className="w-[300] h-[300] ml-10 "/>
+
+      
+<Image 
+      src={require('../../public/images/pink abaya.jpg')}
+      alt="Hijabs"
+      width={200}
+      height={200}
+      loading="lazy"
+      className="w-[300] h-[300] ml-10 "/>
+
+
+
+</div><br></br>
+<main> 
+ <div className="bg-purple-300">
+          <b>WELCOME TO HIJAB COLLECTION</b></div>
           <br></br>
          <div className="bg-purple-300">  <b> Welcome to our exclusive collection of abayas, where tradition meets modernity. 
 Each piece is crafted with care, blending timeless elegance with contemporary design. 
@@ -25,7 +75,7 @@ Our abayas are made from premium fabrics, ensuring a perfect balance of comfort 
   of modest fashion with our collection, where every abaya tells a story of elegance and grace.
   </b></div>
   <br></br>
-  <div className="bg-purple-700">
+  <div className="bg-purple-700 text-white">
     THANKYOU FOR VISITING OUR WEBSITE!
   </div>
 </div>  

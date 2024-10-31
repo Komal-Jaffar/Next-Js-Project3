@@ -1,10 +1,59 @@
 import React from 'react'
+import Image from 'next/image'
 
 
 function page() {
   return (
     <div>
-        <div className="bg-purple-300 m-40 text-[30px] ">
+      <div className="bg-purple-300 m-40 text-[30px] ">
+         
+      <div className="flex">
+<Image 
+      src={require('../../public/images/2pic banner.jpeg')}
+      alt="Hijabs"
+      width={200}
+      height={200}
+      loading="lazy"
+      className="w-[300] h-[300] ml-10"/>
+
+
+
+<Image 
+      src={require('../../public/images/black abaya.jpg')}
+      alt="Hijabs"
+      width={200}
+      height={200}
+      loading="lazy"
+      className="w-[300] h-[300] ml-10"/>
+
+
+<Image 
+      src={require('../../public/images/orange banner.jpeg')}
+      alt="Hijabs"
+      width={200}
+      height={200}
+      loading="lazy"
+      className="w-[300] h-[300] ml-10 "/>
+
+
+<Image 
+      src={require('../../public/images/W-BUNDLES.webp')}
+      alt="Hijabs"
+      width={200}
+      height={200}
+      loading="lazy"
+      className="w-[300] h-[300] ml-10 "/>
+
+      
+<Image 
+      src={require('../../public/images/white banner.jpeg')}
+      alt="Hijabs"
+      width={200}
+      height={200}
+      loading="lazy"
+      className="w-[300] h-[300] ml-10 "/>
+</div><br></br>      
+       
        <b> HIJABS</b><br></br>
 Hijabs and scarves at The Hijab Company are super soft, effortless 
 and made with premium quality. We believe that nothing comes closer 
@@ -54,7 +103,7 @@ A Hijab design definitely lifts up <b>your attire beautifully and our hijab unde
 range </b>aim to bring in the best of every outfit you wear either turban hijab or hijab with cap.
  If you’re ever wondering about the hijab store near me or what a hijab fashion trend is these days,
   this is the place to find out.
-        </div>
+    </div>
       
     </div>
   )

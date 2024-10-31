@@ -1,10 +1,57 @@
 import React from 'react'
-
+import Image from 'next/image'
 
 function Abayas() {
   return (
     <div>
-        <div className="bg-purple-300 m-40 text-[30px] ">
+        <div className="bg-purple-300  m-40 text-[30px] ">
+         
+<div className="flex">
+        <Image 
+      src={require('../../public/images/2pic banner.jpeg')}
+      alt="Hijabs"
+      width={200}
+      height={200}
+      loading="lazy"
+      className="w-[300] h-[300] ml-10"/>
+
+
+
+<Image 
+      src={require('../../public/images/black abaya.jpg')}
+      alt="Hijabs"
+      width={200}
+      height={200}
+      loading="lazy"
+      className="w-[300] h-[300] ml-10"/>
+
+
+<Image 
+      src={require('../../public/images/orange banner.jpeg')}
+      alt="Hijabs"
+      width={200}
+      height={200}
+      loading="lazy"
+      className="w-[300] h-[300] ml-10 "/>
+
+
+<Image 
+      src={require('../../public/images/W-BUNDLES.webp')}
+      alt="Hijabs"
+      width={200}
+      height={200}
+      loading="lazy"
+      className="w-[300] h-[300] ml-10 "/>
+
+      
+<Image 
+      src={require('../../public/images/white banner.jpeg')}
+      alt="Hijabs"
+      width={200}
+      height={200}
+      loading="lazy"
+      className="w-[300] h-[300] ml-10 "/>
+</div><br></br>
        <b> HIJABS</b><br></br>
 Hijabs and scarves at The Hijab Company are super soft, effortless 
 and made with premium quality. We believe that nothing comes closer 
